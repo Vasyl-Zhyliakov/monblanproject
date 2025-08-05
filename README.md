@@ -14,7 +14,7 @@
 - git add .
 - git commit -m "first commit"
 - git branch -M main
-//ось тут обережно ( якщо проект не з заготовки, то set-url не потрібно)
+- //ось тут обережно ( якщо проект не з заготовки, то set-url не потрібно)
 - git remote set-url origin https://github.com/Vasyl-Zhyliakov/НАЗВА ПРОЕКТУ.git
 - git push -u origin main
 

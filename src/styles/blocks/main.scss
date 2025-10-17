@@ -11,6 +11,10 @@
   z-index: 0;
 
   @include small {
+    padding-inline: 220px;
+  }
+
+  @include desktop {
     padding-inline: 92px;
   }
 

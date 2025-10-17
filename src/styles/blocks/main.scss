@@ -36,6 +36,11 @@
     background-repeat: no-repeat;
 
     @include small {
+      top: 680px;
+      left: 80%;
+    }
+
+    @include desktop {
       width: 115px;
       height: 168px;
       top: 680px;

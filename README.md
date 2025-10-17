@@ -1,40 +1,7 @@
-# Ця збірка побудована на Vite + JS + SCSS
+# The project was created with Vite + JavaScript.
 
-# Встановлено Prettier + Stylelint
-
-# Встановлено gh-pages
-
-- треба додати назву проекту в package.json. Приклад: "homepage": "chat-app" (Зараз в "homepage" пуста строка)
-- цю саму назву додай у vite.config.ts. Приклад: base: "/chat-app/", (Зараз в "base:" пуста строка)
-
-# Одразу треба видалити зв’язок темплейту з гітхабом
-
-rm -rf .git
-
-# Додати проект на GitHub
-
-##### На гітхабі обираю новий проект, далі
-
-- git init
-- git add .
-- git commit -m "first commit"
-- git branch -M main
-- //ось тут обережно ( якщо проект не з заготовки, то set-url не потрібно)
-- git remote set-url origin https://github.com/Vasyl-Zhyliakov/НАЗВА ПРОЕКТУ.git
-- git push -u origin main
-
-##### Після цього всі зміни можна додавати
-
-- git add .
-- git commit -m "Some changes"
-- git push
-- npm run deploy
-
-##### Нижче чернетка для README готового проекту
-
-# The project was created with Vite + TypeScript.
-
-[Demo](https://vasyl-zhyliakov.github.io/Tako/)
+- [Demo](https://vasyl-zhyliakov.github.io/monblanproject/)
+- [Mockup](https://www.figma.com/file/MwGYHQfDaytsvUW7ivCNMY/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D1%89%D0%B8%D0%BA%D0%BE%D0%B2?node-id=0%3A1)
 
 # Technologies used
 
@@ -44,27 +11,23 @@ rm -rf .git
 - BEM methodology
 - JavaScript
 - Vite
-- Swiper.js
-- GSAP MotionPathPlugin
+- Flatpickr
 
 # Features
 
-Responsive Design – Built with a mobile-first approach, ensuring seamless performance across various devices.
-
 Adaptive Layout – The design dynamically adjusts to different screen sizes:
 
-- The design < 1920px
-- Desktop > 1440px
-- Small desktop > 1024px
-- Tablet > 768px
-- Mobile > 375px
+- The design = 1440px
+- Small desktop >= 1024px
+- Tablet >= 768px
+- Mobile >= 375px
 
 # Follow these steps to run the project locally:
 
 - Clone the repository:
-  git clone https://github.com/Vasyl-Zhyliakov/Tako.git
+  git clone https://github.com/Vasyl-Zhyliakov/monblanproject.git
 - Navigate to the project directory:
-  cd Tako
+  cd monblanproject
 - Install the dependencies (Make sure you have Node.js installed):
   npm install
 - Start the development server:

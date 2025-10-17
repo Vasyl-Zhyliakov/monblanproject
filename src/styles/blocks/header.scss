@@ -17,22 +17,18 @@
     background-repeat: no-repeat;
 
     @include small {
-      top: -49.5px;
       left: -125px;
     }
 
     @include desktop {
-      top: -49.5px;
       left: -255px;
     }
 
     @include tablet {
-      top: -49.5px;
       left: -355px;
     }
 
     @include mobile {
-      top: -50px;
       left: -280px;
     }
   }

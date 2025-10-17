@@ -8,11 +8,13 @@
 - цю саму назву додай у vite.config.ts. Приклад: base: "/chat-app/", (Зараз в "base:" пуста строка)
 
 # Одразу треба видалити зв’язок темплейту з гітхабом
+
 rm -rf .git
 
 # Додати проект на GitHub
 
 ##### На гітхабі обираю новий проект, далі
+
 - git init
 - git add .
 - git commit -m "first commit"
@@ -22,6 +24,7 @@ rm -rf .git
 - git push -u origin main
 
 ##### Після цього всі зміни можна додавати
+
 - git add .
 - git commit -m "Some changes"
 - git push

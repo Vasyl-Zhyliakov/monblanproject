@@ -38,8 +38,9 @@
     display: flex;
     gap: 86px;
     z-index: 1;
-    box-shadow: 0px 4px 24px 0px #0000001f;
-    box-shadow: 0px 12px 24px 0px #0000001f inset;
+    box-shadow:
+      0px 4px 24px 0px #0000001f,
+      0px 12px 24px 0px #0000001f inset;
     background-color: $white-header;
     position: relative;
 
@@ -95,7 +96,7 @@
   }
 
   &__title {
-    font-family: Montserrat;
+    font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
@@ -103,7 +104,6 @@
   }
 
   &__start {
-    font-family: Roboto;
     font-weight: 400;
     font-size: 13px;
     line-height: 100%;
@@ -127,7 +127,6 @@
   }
 
   &__rating {
-    font-family: Roboto;
     font-weight: 700;
     font-size: 14px;
     line-height: 100%;
@@ -156,7 +155,6 @@
   }
 
   &__date-descripton {
-    font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;

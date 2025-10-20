@@ -1,7 +1,7 @@
 import './styles/main.scss';
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
-import { English } from 'flatpickr/dist/l10n/ru.js';
+import { English } from 'flatpickr/dist/l10n/default.js';
 
 const fromInput = document.querySelector('#dateFrom');
 const toInput = document.querySelector('#dateTo');
@@ -9,7 +9,7 @@ const toInput = document.querySelector('#dateTo');
 const fromPicker = flatpickr(fromInput, {
   dateFormat: 'd_m_Y',
   locale: English,
-  onChange: function (selectedDates, dateStr) {
+  onChange: function (selectedDates) {
     if (selectedDates.length > 0) {
       toPicker.set('minDate', selectedDates[0]);
     }
@@ -18,7 +18,7 @@ const fromPicker = flatpickr(fromInput, {
 
 const toPicker = flatpickr(toInput, {
   dateFormat: 'd_m_Y',
-  onChange: function (selectedDates, dateStr) {
+  onChange: function (selectedDates) {
     if (selectedDates.length > 0) {
       fromPicker.set('maxDate', selectedDates[0]);
     }

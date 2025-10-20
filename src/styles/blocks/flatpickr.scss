@@ -1,46 +1,57 @@
-// .flatpickr-calendar {
-//   // height: 215px;
-//   // width: 201px;
-// }
+.flatpickr-calendar {
+  font-family: 'Roboto', Arial, sans-serif;
+}
 
-// .flatpickr-months {
-//   font-family: Roboto !important;
-//   font-weight: 700 !important;
-//   font-size: 14px !important;
-//   line-height: 100% !important;
-//   color: $black !important;
-// }
+.flatpickr-input::-webkit-calendar-picker-indicator {
+  display: none !important;
+  -webkit-appearance: none;
+}
 
-// .flatpickr-current-month {
-//   // font-family: Roboto !important;
-//   // font-weight: 700 !important;
-//   // font-size: 14px !important;
-//   // line-height: 100% !important;
-//   // color: $black !important;
-//   background-color: yellow !important;
-// }
+.flatpickr-monthDropdown-months {
+  font-weight: 700 !important;
 
-// .numInput.cur-year {
-//   font-family: Roboto;
-//   font-weight: 700;
-//   font-size: 14px;
-//   line-height: 100%;
-//   color: $black;
-//   background-color: aqua;
-// }
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-align: end;
+}
 
-// // .flatpickr-months — місяць та навігація.
+.numInput.cur-year {
+  font-weight: 700 !important;
+}
 
-// // .flatpickr-weekdays — дні тижня.
+.flatpickr-prev-month,
+.flatpickr-next-month {
+  height: 14px;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-block: 0 !important;
+}
 
-// // .flatpickr-days — сітка днів.
+.flatpickr-prev-month {
+  background-image: url(../../images/icons/arrow-left.svg);
+}
 
-// // .flatpickr-day — окремий день.
+.flatpickr-next-month {
+  background-image: url(../../images/icons/arrow-right.svg);
+}
 
-// // .flatpickr-prev-month, .flatpickr-next-month — кнопки перемикання місяця.
+.flatpickr-prev-month svg,
+.flatpickr-next-month svg {
+  display: none;
+}
 
-// // .flatpickr-disabled — неактивні дні.
+.flatpickr-day.selected {
+  border-radius: 2px;
+  background-color: $blue-button !important;
+}
 
-// // .flatpickr-today — поточний день.
+.flatpickr-day.today {
+  border-radius: 2px;
+}
 
-// // .open
+.flatpickr-weekday {
+  font-weight: 700 !important;
+  color: $black !important;
+}

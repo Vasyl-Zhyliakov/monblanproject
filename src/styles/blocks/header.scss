@@ -29,7 +29,7 @@
     }
 
     @include mobile {
-      left: -280px;
+      left: calc(-280px - ((100 - 280) * ((100vw - 375px) / (767 - 375))));
     }
   }
 
